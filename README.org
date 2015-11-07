@@ -1,0 +1,59 @@
+* Prioritizer 
+An app to visualize and discuss organizational priorities. 
+
+** Goal
+Write an app that allows people in an organization to:
+
+- Identify their work.
+- Identify their priorities.
+- Identify the effort their work requires.
+- Identify who is doing the work. 
+- Assess the state of all their priorities. 
+- Discuss their priorities interactively. 
+
+** Models
+
+*** Organizations 
+The high-level groups in a business. Think "sales," "marketing,"
+"product," "engineering."
+
+Organizations have:
+
+**** Teams
+The lower-level groups in a business. Think "marketing comms,"
+"marketing ops," "product marketing." 
+
+Teams belong to organizations.
+
+Teams have:
+
+***** Users
+The people in an organization. 
+
+**** Areas
+High-level areas of concern. 
+
+Areas have:
+
+***** Projects
+Identified work within an area. 
+
+
+** Features
+
+*** Dashboard Page
+The high-level view of the organization's priorities, offering
+at-a-glance status of everything. 
+
+**** Organization Pages
+Subset of the dashboard for organizations
+
+***** Team Pages
+Subset of the dashboard for teams
+
+*** Area Pages
+Dashboard of projects within an area
+
+**** Project Pages
+A close look at projects that shows other projects with similiar
+priorities and statuses. 
